@@ -28,6 +28,22 @@ public class Auto {
         return cilindrata;
     }
 
+    public void setModello(String modello) {
+        this.modello = modello;
+    }
+
+    public void setMarca(String marca) {
+        this.marca = marca;
+    }
+
+    public void setTarga(String targa) {
+        this.targa = targa;
+    }
+
+    public void setCilindrata(int cilindrata) {
+        this.cilindrata = cilindrata;
+    }
+
     @Override
     public String toString() {
         return "Auto1{" +
